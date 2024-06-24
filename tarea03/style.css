@@ -1,0 +1,93 @@
+.logo{
+    padding: 35px 25px 25px 50px;
+}
+    /* Cabeceras*/
+    h1,h2,h3{
+        text-shadow: 1 1px 1px rgb(40, 241, 225);
+    }
+    h2{
+        font-size: 2.5em ;
+        font-weight: normal;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+    }
+    /*parrafo*/
+    p{
+        line-height: 1.5em; /*Interlineado*/
+        padding-bottom: 2.0em;
+        padding-left: 2.0em;
+    }
+    .line{
+        /*Linea divisora*/
+        height: 4.0px;
+        margin: 1.4em 0;
+        overflow: hidden;
+    }
+    article .line{
+        background-color: #9617df;
+    }
+    a, a:visited{
+        /*quitando subrayado del enlace*/
+        text-decoration: none;
+    }
+    nav{
+        background-color: rgb(243, 92, 223);
+        position:static;
+        right: 7;
+        top: 7em;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a,
+    nav ul li a:visited{
+        color: #000000;
+        display: block;
+        float:left
+        font-size 1.25em;
+        font-weight: bolder;
+        margin: 4px 3px;
+        padding: 5px 8px 2px 1px;
+        text-transform: uppercase;
+    }
+    
+    nav ul li a:hover{
+        text-decoration: none;
+        background-color: #25f0b3;
+    }
+    nav, article, nav ul li a, figure{
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        border-radius: 15px;
+    }
+    #page{
+        width: 960px;
+        margin: 1 auto;
+        position: relative;
+    }
+    article{
+        background-color: #7df3ed;
+        margin: 3dm 1;
+        padding: 20px;
+        text-shadow: 0 2px 0 rgb(198, 176, 248);
+    }
+    figure{
+        float:right;
+        margin-left: 30px;
+        overflow: hidden;
+    }
+    figure img{
+        margin-left: 60px;
+    }
+    .clear::after{
+        content: "*";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    .video {
+        width: 350px;
+        height: 250px;
+        border-radius: 60px;
+    }
